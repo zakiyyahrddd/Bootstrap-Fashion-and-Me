@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/8556c9b2b9.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+			integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+			crossorigin="anonymous"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="../assets/css/style.css" />
+		<title>Casual</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-section navbar-expand-lg fixed-top">
+			<div class="container pt-0 pb-0">
+				<!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarText"
+					aria-controls="navbarText"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link me-4" aria-current="page" href="../index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link me-4 ms-4 active" href="../categories.html"
+								>Categories</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link me-4 ms-4" href="../blog.html">Blogs</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link me-4 ms-4" href="../about-us.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link me-4 ms-4" href="../contact.html"
+								>Contact Us</a
+							>
+						</li>
+					</ul>
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link d-flex align-item-center" href="#"
+								><i
+									class="
+										far
+										fa-user-circle fa-light
+										pe-2
+										d-none d-sm-none d-md-block d-lg-block d-xl-block
+									"
+								></i
+								>LOGIN</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="
+									nav-link
+									d-flex
+									align-item-center
+									d-none d-sm-none d-md-block d-lg-block d-xl-block
+								"
+								>|</a
+							>
+						</li>
+						<li class="nav-item me-3">
+							<a class="nav-link" href="#">REGISTER</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"
+								><i class="fas fa-shopping-bag"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="categories">
+			<div class="container">
+				<div class="d-flex mt-3">
+					<nav style="--bs-breadcrumb-divider: '|'" aria-label="breadcrumb">
+						<ol class="breadcrumb mt-0">
+							<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page">
+								Categories
+							</li>
+						</ol>
+					</nav>
+					<div class="col-4 ms-auto">
+						<input
+							type="text"
+							class="form-control rounded-pill categories-search fas fa-search"
+							placeholder=" Search"
+							aria-label="Search"
+						/>
+					</div>
+				</div>
+				<h5 class="mb-0 pt-3">Casual</h5>
+				<section class="product">
+					<div class="container">
+						<div class="row">
+							<div class="row pb-2 pt-3">
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/product-1.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="yolk">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">Hush Puppies Joplin</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> IDR 510,000</strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 255,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/product-2.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="yolk">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														et cetera - Loose Sweatshirt Cowl Neck
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted">IDR 350,000</strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 175,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/product-3.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="yolk">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">RA Street Lover</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> IDR 340,000</strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 170,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/product-4.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="yolk">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														Ocwa Studio OCWA Malou Black Jacket
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> IDR 600,000</strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 300,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="product">
+					<div class="container">
+						<div class="row">
+							<div class="row pb-2 pt-3">
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-4">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-1.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+											<div class="yolk-1">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														The Pink Label - Dusty Cotton Jogger Pants
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> IDR 440,000</strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 220,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-4">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-2.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														madeleine Naomi Blue Long Organic Set
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> </strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 350,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-4">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-3.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														PUMA Sportstyle Prime Tfs Og Retro Pants
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> </strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 810,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-4">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-4.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+											<div class="yolk-1">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														Bonjour - Blue Denim Skinny Long Cut
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> </strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 350,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-4">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-5.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+											<div class="yolk-1">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														The Label - Red Flare Dress
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> </strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 520,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-4">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-6.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+											<div class="yolk-1">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														The Luxury Leather Hand Bag
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> </strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 250,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-3">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-7.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+											<div class="yolk-1">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">Soft Grey Sports Pants</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"> IDR 220,000</strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 110,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-3 pb-3">
+									<div class="card w-100 card-2">
+										<div class="parent-yolk">
+											<img
+												src="../assets/images/new-8.png"
+												class="card-img-top"
+												alt="..."
+											/>
+											<div class="new-yolk">NEW</div>
+											<div class="yolk-1">50%</div>
+										</div>
+										<div class="card-body">
+											<ul>
+												<li class="li-1">
+													<h5 class="product-name">
+														Zalia Belted Flounce Mermaid Dress
+													</h5>
+												</li>
+												<li class="li-2">
+													<h6 class="discount">
+														<strike class="text-muted"></strike>
+													</h6>
+												</li>
+												<li class="li-2">
+													<h6 class="prices">IDR 750,000</h6>
+												</li>
+												<li class="li-3 d-none">
+													<button type="button" class="btn btn-product">
+														Buy Now
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container pt-0">
+				<div class="row">
+					<div class="col-8">
+						<div class="row">
+							<div
+								class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+							>
+								<ul class="footer-1">
+									<li><a href="categories.html">Categories</a></li>
+									<li><a href="about-us.html">About Fashion&Me</a></li>
+									<li><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</div>
+							<div
+								class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+							>
+								<ul class="footer-2">
+									<li><a href="#">Privacy Statement</a></li>
+									<li><a href="#">Term of Use</a></li>
+									<li><a href="#">Cookies Preferences</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+						<ul class="footer-2">
+							<li><a href="#">Get our News Letter</a></li>
+							<li>
+								<div class="input-group pt-1 pb-3 pe-3">
+									<input
+										type="text"
+										class="form-control me-2 footer-input"
+										aria-describedby="button-addon2"
+										placeholder="Your Email Here"
+									/>
+
+									<button
+										class="btn btn-light btn-footer"
+										type="button"
+										id="button-addon2"
+									>
+										Subscribe
+									</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 mt-4">
+						<div class="icon d-flex justify-content-center">
+							<i class="fab fa-facebook me-3"></i>
+							<i class="fab fa-instagram-square me-3"></i>
+							<i class="fab fa-twitter-square me-3"></i>
+						</div>
+						<h1 class="brand-footer text-center mt-2">FASHION & ME</h1>
+						<p class="mt-2 text-center">
+							Fashion&Me’s business concept is to offer fashion and quality at
+							the best price in a sustainable way. Fashion&Me has since it was
+							founded in 2010 grown into one of the world's leading fashion
+							companies. The content of this site is copyright-protected and is
+							the property of Fashion&Me Hennes & Mauritz AB.
+						</p>
+						<p class="text-center">@2020</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<script src="../assets/js/jquery.min.js"></script>
+	</body>
+</html>
